@@ -59,6 +59,11 @@ li {
   padding-bottom: 10px;
 }
 
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .main {
   padding: 30px 100px;
 }
@@ -92,8 +97,6 @@ article {
 }
 
 .content {
-  background-color: cadetblue;
-  height: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -102,7 +105,7 @@ article {
   background-color: darkgoldenrod;
 }
 
-.social {
+.social-footer {
   background-color: darkgreen;
   height: 150px;
 }
