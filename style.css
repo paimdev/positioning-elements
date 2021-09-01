@@ -43,6 +43,7 @@ table {
 }
 
 /* start of the actual css file */
+/* ----- start of global element styles ---- */
 
 nav {
   display: grid;
@@ -56,6 +57,7 @@ ul {
 }
 
 li {
+  display: flex;
   padding-bottom: 10px;
 }
 
@@ -67,6 +69,8 @@ p {
 .main {
   padding: 30px 100px;
 }
+
+/* ----- start of header styles ----- */
 
 header {
   display: flex;
@@ -91,6 +95,8 @@ header {
   padding-left: 10px;
 }
 
+/* ----- start of content styles ----- */
+
 article {
   display: grid;
   grid-template-columns: 2.5fr 1fr;
@@ -101,8 +107,11 @@ article {
   padding-bottom: 50px;
 }
 
-.sidebar {
-  background-color: darkgoldenrod;
+/* ----- start of sidebar styles ----- */
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .social-footer {
