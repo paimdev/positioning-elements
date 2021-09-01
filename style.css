@@ -78,9 +78,22 @@ header {
 }
 
 .banner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 10px;
+}
+
+.logo {
+  width: 350px;
+}
+
+.subscribe-container {
+  justify-self: end;
+}
+
+.subscribe-cta {
+  width: 250px;
+  height: 30px;
 }
 
 .info {
