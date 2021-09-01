@@ -66,6 +66,14 @@ p {
   padding-bottom: 10px;
 }
 
+strong {
+  font-weight: 600;
+}
+
+small {
+  font-size: 11px;
+}
+
 .main {
   padding: 30px 100px;
 }
@@ -116,8 +124,26 @@ article {
 }
 
 .content {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.tags-info {
+  float: left;
+}
+
+.tags {
+  float: left;
+  padding-left: 10px;
+}
+
+.tag {
+  height: 30px;
+  padding: 5px;
 }
 
 /* ----- start of sidebar styles ----- */
