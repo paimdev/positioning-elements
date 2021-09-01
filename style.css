@@ -114,17 +114,7 @@ article {
   flex-direction: column;
 }
 
-.social-footer {
-  background-color: darkgreen;
-  height: 150px;
-}
-
-.recommended {
-  background-color: darkmagenta;
-  height: 150px;
-}
 
 footer {
   background-color: darkred;
-  height: 200px;
 }
