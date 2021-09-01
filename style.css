@@ -44,15 +44,46 @@ table {
 
 /* start of the actual css file */
 
+nav {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-gap: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
 .main {
-  padding: 25px 100px;
+  padding: 30px 100px;
 }
 
 header {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
-  height: 100px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.info {
+  padding-right: 70px;
+}
+
+.nav-login-search {
+  justify-content: end;
+}
+
+.search-toggle {
+  padding-left: 10px;
 }
 
 article {
@@ -63,6 +94,8 @@ article {
 .content {
   background-color: cadetblue;
   height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sidebar {
